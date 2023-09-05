@@ -1,9 +1,13 @@
+import Contact from "./components/Contact";
+import HomePage from "./components/HomePage";
 import NavBar from "./components/NavBar";
 
 function App() {
   return (
-    <div className="w-full mx-auto ">
+    <div className="p-3 ">
       <NavBar />
+      <HomePage />
+      <Contact />
     </div>
   );
 }
