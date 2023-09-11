@@ -1,14 +1,19 @@
-import Contact from "./components/Contact";
-import HomePage from "./components/HomePage";
-import NavBar from "./components/NavBar";
+// import Contact from "./components/Contact";
+// import Footer from "./components/Footer";
+// import HomePage from "./components/HomePage";
+// import NavBar from "./components/NavBar";
+import What from "./components/What";
+
 
 function App() {
   return (
-    <div className="p-3 ">
-      <NavBar />
+    <div className="bg-slate-200 ">
+      {/* <NavBar />
       <HomePage />
-      <Contact />
-    </div>
+      <Contact /> */}
+      <What />
+      {/* <Footer /> */}
+       </div>
   );
 }
 

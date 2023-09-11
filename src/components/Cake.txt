@@ -1,0 +1,732 @@
+const Homepage = () => {
+  return (
+    <div className="bg-white w-[1512px] h-[8119px] overflow-hidden text-center text-xl text-black font-heading1">
+      <div className="absolute top-[7035px] left-[336px] w-[911px] h-[579px]">
+        <span className="absolute top-[0px] left-[calc(50%_-_364.5px)] text-51xl tracking-[0.03em] flex items-center justify-center w-[659px]">
+          Contact Us
+        </span>
+        <span className="absolute top-[257px] left-[calc(50%_-_455.5px)] text-45xl tracking-[0.03em] flex items-center w-[911px]">
+          <span className="[line-break:anywhere] w-full">
+            <span>{`Please to place an order with us click `}</span>
+            <span className="text-chocolate">here</span>
+            <span>
+              {' '}
+              and fill in your order details and we will get back to you shortly
+            </span>
+          </span>
+        </span>
+        <span className="absolute top-[87px] left-[calc(50%_-_422.5px)] leading-[29px] flex text-gray-100 items-center justify-center w-[775px]">{`It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum `}</span>
+        <span className="absolute top-[550px] left-[calc(50%_-_387.5px)] leading-[29px] flex text-chocolate items-center justify-center w-[775px]">
+          Or send an email to orders@pinchofsweet@gmail.com
+        </span>
+      </div>
+      <div className="absolute top-[7776px] left-[0px] bg-gainsboro w-[1512px] h-[343px] text-left text-8xl font-inter">
+        <div className="absolute top-[49px] left-[170px] font-extrabold">
+          Pinch of Sweet
+        </div>
+        <div className="absolute top-[49px] left-[532px] w-[139px] h-[191px] flex flex-col items-start justify-start gap-[37px]">
+          <div className="relative font-medium">Navigation</div>
+          <div className="w-[85px] h-[121px] flex flex-col items-start justify-start gap-[15px] text-base text-gray-200">
+            <div className="relative font-semibold">Home</div>
+            <div className="relative font-semibold">About us</div>
+            <div className="relative font-semibold">Products</div>
+            <div className="relative font-semibold">{`Contact us `}</div>
+          </div>
+        </div>
+        <div className="absolute top-[48px] left-[775px] w-[79px] h-[191px] text-base">
+          <div className="absolute top-[70px] left-[6px] w-[73px] h-[121px] flex flex-col items-start justify-start gap-[15px]">
+            <div className="relative font-medium">Cakes</div>
+            <div className="relative font-medium">Croissant</div>
+            <div className="relative font-medium">Sweets</div>
+            <div className="relative font-medium">Treats</div>
+          </div>
+          <div className="absolute top-[0px] left-[0px] text-8xl font-medium">
+            Menu
+          </div>
+        </div>
+        <span className="absolute top-[111px] left-[173px] text-xl leading-[29px] flex font-heading1 text-gray-100 items-center w-[280px] h-[103px]">{`It is a long established fact that a reader will be distracted by the readable content of `}</span>
+        <div className="absolute top-[49px] left-[1093px] w-[216px] h-[107px]">
+          <div className="absolute top-[0px] left-[2px] font-medium">{`Follow us `}</div>
+          <div className="absolute top-[62px] left-[0px] rounded-[50%] box-border w-12 h-[45px] border-[1px] border-solid border-black" />
+          <div className="absolute top-[62px] left-[85px] rounded-[50%] box-border w-12 h-[45px] border-[1px] border-solid border-black" />
+          <div className="absolute top-[62px] left-[168px] rounded-[50%] box-border w-12 h-[45px] border-[1px] border-solid border-black" />
+          <img
+            className="absolute h-[23.36%] w-[6.2%] top-[67.29%] right-[85.93%] bottom-[9.35%] left-[7.87%] max-w-full overflow-hidden max-h-full"
+            alt=""
+            src="/vector.svg"
+          />
+          <img
+            className="absolute h-[18.98%] w-[11.57%] top-[70.09%] right-[43.52%] bottom-[10.93%] left-[44.91%] max-w-full overflow-hidden max-h-full"
+            alt=""
+            src="/vector1.svg"
+          />
+          <img
+            className="absolute h-[20.45%] w-[10.13%] top-[69.16%] right-[6.07%] bottom-[10.39%] left-[83.8%] max-w-full overflow-hidden max-h-full"
+            alt=""
+            src="/vector2.svg"
+          />
+        </div>
+      </div>
+      <div className="absolute top-[38px] left-[180px] w-[1316.03px] h-[879.88px] text-left text-3xl font-inter">
+        <div className="absolute top-[13px] left-[0px] text-8xl font-extrabold">
+          Pinch of Sweet
+        </div>
+        <img
+          className="absolute top-[196px] left-[678px] w-[638.03px] h-[664.63px] object-cover"
+          alt=""
+          src="/pngwing-5@2x.png"
+        />
+        <div className="absolute top-[18px] left-[316px] w-[519px] h-[23px] flex flex-row items-start justify-start gap-[52px] text-base">
+          <div className="relative font-medium">Home</div>
+          <div className="relative font-medium">About us</div>
+          <div className="relative font-medium">Products</div>
+          <div className="relative font-medium">Menu</div>
+          <div className="relative font-medium">{`Contact us `}</div>
+        </div>
+        <div className="absolute top-[675px] left-[3px] shadow-[0px_15px_30px_rgba(0,_0,_0,_0.15)] w-[126px] h-[62px] text-peru">
+          <img
+            className="absolute top-[0px] left-[0px] w-[126px] h-[62px]"
+            alt=""
+            src="/rectangle-8.svg"
+          />
+          <div className="absolute top-[17px] left-[32px] font-extrabold">
+            Menu
+          </div>
+        </div>
+        <div className="absolute top-[674px] left-[152px] shadow-[0px_15px_30px_rgba(0,_0,_0,_0.15)] w-[167px] h-[62px] text-white">
+          <img
+            className="absolute top-[0px] left-[0px] w-[167px] h-[62px]"
+            alt=""
+            src="/rectangle-81.svg"
+          />
+          <div className="absolute top-[17px] left-[22px] font-extrabold">
+            Place order
+          </div>
+        </div>
+        <div className="absolute top-[0px] left-[985px] shadow-[0px_15px_30px_rgba(0,_0,_0,_0.15)] w-[167px] h-[62px] text-white">
+          <img
+            className="absolute top-[0px] left-[0px] w-[167px] h-[62px]"
+            alt=""
+            src="/rectangle-81.svg"
+          />
+          <div className="absolute top-[17px] left-[22px] font-extrabold">
+            Place order
+          </div>
+        </div>
+        <span className="absolute top-[225px] left-[3px] text-54xl inline-block font-heading1 w-[690px]">
+          <p className="m-0">We provide the best</p>
+          <p className="m-0">Baking treats and gifts in Brampton</p>
+        </span>
+        <span className="absolute top-[480px] left-[3px] text-base leading-[29px] inline-block font-heading1 text-gray-100 w-[463px]">
+          It is a long established fact that a reader will be distracted by the
+          readable content of a page when looking at its layout.
+        </span>
+        <img
+          className="absolute top-[776px] left-[11px] w-[216px] h-[45px]"
+          alt=""
+          src="/group-11.svg"
+        />
+        <img
+          className="absolute top-[209px] left-[570px] w-[636.91px] h-[494.97px] object-cover"
+          alt=""
+          src="/pngwing-3@2x.png"
+        />
+        <img
+          className="absolute top-[232px] left-[547px] w-[659.48px] h-[647.88px] object-cover"
+          alt=""
+          src="/pngwing-4@2x.png"
+        />
+        <img
+          className="absolute top-[188px] left-[731px] w-[421px] h-[656px] object-cover"
+          alt=""
+          src="/mask-group@2x.png"
+        />
+      </div>
+      <div className="absolute top-[938px] left-[-668px] w-[2774px] h-[5924px] overflow-hidden text-22xl text-white">
+        <div className="absolute top-[0px] left-[0px] w-[2774px] h-[5924px] text-left font-inter">
+          <div className="absolute top-[2068px] left-[968px] font-extrabold">
+            CROISSANT
+          </div>
+          <div className="absolute top-[0px] left-[664px] bg-antiquewhite w-[1514px] h-[2265px]" />
+          <span className="absolute top-[1133px] left-[calc(50%_-_305px)] text-51xl inline-block font-heading1 text-black text-center w-[610px]">
+            Some of Our products
+          </span>
+          <div className="absolute top-[1444px] left-[1236px] w-[369px] h-[334px] overflow-hidden flex flex-col py-10 px-3.5 box-border items-end justify-end bg-[url('/frame-7@3x.png')] bg-cover bg-no-repeat bg-[top]">
+            <div className="relative font-extrabold">SWEET</div>
+          </div>
+          <div className="absolute top-[1838px] left-[1234px] w-[369px] h-[334px] overflow-hidden flex flex-col py-14 px-[19px] box-border items-end justify-end bg-[url('/frame-9@3x.png')] bg-cover bg-no-repeat bg-[top]">
+            <div className="relative font-extrabold">CUP CAKES</div>
+          </div>
+          <div className="absolute top-[1444px] left-[1628px] w-[369px] h-[334px] overflow-hidden flex flex-col py-[33px] px-[18px] box-border items-end justify-end bg-[url('/frame-8@3x.png')] bg-cover bg-no-repeat bg-[top]">
+            <div className="relative font-extrabold">CROISSANT</div>
+          </div>
+          <div className="absolute top-[1439px] left-[844px] rounded-xl w-[369px] h-[334px] flex flex-col py-[67.55056762695312px] px-[18px] box-border items-end justify-end bg-[url('/frame-1@3x.png')] bg-cover bg-no-repeat bg-[top]">
+            <div className="relative font-extrabold inline-block w-[117px] h-[37.53px] shrink-0">
+              CAKE
+            </div>
+          </div>
+          <img
+            className="absolute top-[1838px] left-[845px] rounded-xl w-[369px] h-[334px] object-cover"
+            alt=""
+            src="/screenshot-20230824-at-751-1@2x.png"
+          />
+          <span className="absolute top-[1299px] left-[calc(50%_-_434px)] text-[47px] leading-[29px] inline-block font-heading1 text-gray-100 w-[877px]">
+            Please check out our list of featured email
+          </span>
+          <img
+            className="absolute top-[489px] left-[668px] w-[424px] h-[624px] object-cover"
+            alt=""
+            src="/mask-group1@2x.png"
+          />
+          <div className="absolute top-[843px] left-[calc(50%_-_72px)] flex flex-row items-start justify-start gap-[36px]">
+            <div className="relative rounded-[50%] box-border w-12 h-[45px] z-[0] border-[1px] border-solid border-black" />
+            <div className="relative rounded-[50%] box-border w-12 h-[45px] z-[1] border-[1px] border-solid border-black" />
+            <div className="relative rounded-[50%] box-border w-12 h-[45px] z-[2] border-[1px] border-solid border-black" />
+            <img
+              className="absolute my-0 mx-[!important] h-[55.56%] w-[6.2%] top-[22.22%] right-[85.93%] bottom-[22.22%] left-[7.87%] max-w-full overflow-hidden max-h-full z-[3]"
+              alt=""
+              src="/vector.svg"
+            />
+            <img
+              className="absolute my-0 mx-[!important] h-[45.12%] w-[11.57%] top-[28.89%] right-[43.52%] bottom-[25.99%] left-[44.91%] max-w-full overflow-hidden max-h-full z-[4]"
+              alt=""
+              src="/vector1.svg"
+            />
+            <img
+              className="absolute my-0 mx-[!important] h-[48.63%] w-[10.13%] top-[26.67%] right-[6.07%] bottom-[24.71%] left-[83.8%] max-w-full overflow-hidden max-h-full z-[5]"
+              alt=""
+              src="/vector2.svg"
+            />
+          </div>
+          <img
+            className="absolute top-[189px] left-[1892px] w-[446px] h-[338px] object-cover"
+            alt=""
+            src="/mask-group2@2x.png"
+          />
+          <img
+            className="absolute top-[150px] left-[calc(50%_-_132px)] w-[364px] h-[462px] object-cover"
+            alt=""
+            src="/mask-group3@2x.png"
+          />
+          <div className="absolute top-[1943px] left-[0px] w-[2774px] h-[3981px] text-center text-xl text-black font-heading1">
+            <div className="absolute top-[2321px] left-[calc(50%_-_720px)] bg-antiquewhite w-[1513px] h-[1660px]" />
+            <span className="absolute top-[2480px] left-[calc(50%_-_292px)] text-45xl tracking-[0.03em] flex items-center justify-center w-[659px]">
+              Our Happy Customers
+            </span>
+            <span className="absolute top-[2569px] left-[1127px] leading-[29px] flex text-gray-100 items-center justify-center w-[595px]">
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page when looking at its layout. The
+              point of using Lorem Ipsum is that it has a more-or-less normal
+              distribution of letters, as opposed to using 'Content here,
+            </span>
+            <div className="absolute top-[2824px] left-[1127px] rounded-tl-11xl rounded-tr-smi rounded-br-smi rounded-bl-11xl bg-white shadow-[0px_15px_25px_rgba(0,_0,_0,_0.15)] w-[621px] h-[359px]" />
+            <span className="absolute top-[3096px] left-[1321px] leading-[29px] flex items-center justify-center w-[226px] h-[43px]">{`John doe `}</span>
+            <div className="absolute top-[3118px] left-[1334px] leading-[29px] flex items-center justify-center w-[200px] h-[43px]">
+              most high chef
+            </div>
+            <span className="absolute top-[2929px] left-[1187px] leading-[29px] flex text-gray-100 items-center justify-center w-[485px]">
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page when looking at its layout. The
+              point of using Lorem Ipsum is that it has a more-or-less normal
+              distribution of letters, as opposed to using 'Content here,
+            </span>
+            <div className="absolute top-[2866px] left-[1351px] flex flex-row items-start justify-start gap-[17px]">
+              <img
+                className="relative w-[18px] h-[19px]"
+                alt=""
+                src="/star-1.svg"
+              />
+              <img
+                className="relative w-[18px] h-[19px]"
+                alt=""
+                src="/star-1.svg"
+              />
+              <img
+                className="relative w-[18px] h-[19px]"
+                alt=""
+                src="/star-1.svg"
+              />
+              <img
+                className="relative w-[18px] h-[19px]"
+                alt=""
+                src="/star-1.svg"
+              />
+              <img
+                className="relative w-[18px] h-[19px]"
+                alt=""
+                src="/star-1.svg"
+              />
+            </div>
+            <div className="absolute top-[2824px] left-[474px] rounded-tl-11xl rounded-tr-smi rounded-br-smi rounded-bl-11xl bg-white shadow-[10px_10px_5px_rgba(0,_0,_0,_0.25)] w-[621px] h-[359px]" />
+            <span className="absolute top-[3096px] left-[668px] leading-[29px] flex items-center justify-center w-[226px] h-[43px]">{`John doe `}</span>
+            <div className="absolute top-[3118px] left-[681px] leading-[29px] flex items-center justify-center w-[200px] h-[43px]">
+              most high chef
+            </div>
+            <span className="absolute top-[2929px] left-[534px] leading-[29px] flex text-gray-100 items-center justify-center w-[485px]">
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page when looking at its layout. The
+              point of using Lorem Ipsum is that it has a more-or-less normal
+              distribution of letters, as opposed to using 'Content here,
+            </span>
+            <div className="absolute top-[2866px] left-[698px] flex flex-row items-start justify-start gap-[17px]">
+              <img
+                className="relative w-[18px] h-[19px]"
+                alt=""
+                src="/star-1.svg"
+              />
+              <img
+                className="relative w-[18px] h-[19px]"
+                alt=""
+                src="/star-1.svg"
+              />
+              <img
+                className="relative w-[18px] h-[19px]"
+                alt=""
+                src="/star-1.svg"
+              />
+              <img
+                className="relative w-[18px] h-[19px]"
+                alt=""
+                src="/star-1.svg"
+              />
+              <img
+                className="relative w-[18px] h-[19px]"
+                alt=""
+                src="/star-1.svg"
+              />
+            </div>
+            <img
+              className="absolute top-[3161px] left-[698px] w-[167px] h-[155px] object-cover"
+              alt=""
+              src="/ellipse-7@2x.png"
+            />
+            <img
+              className="absolute top-[3176px] left-[1386px] w-[129px] h-32 object-cover"
+              alt=""
+              src="/ellipse-5@2x.png"
+            />
+            <div className="absolute top-[2830px] left-[1795px] rounded-tl-11xl rounded-tr-smi rounded-br-smi rounded-bl-11xl bg-white shadow-[10px_10px_5px_rgba(0,_0,_0,_0.25)] w-[577px] h-[359px]" />
+            <span className="absolute top-[3102px] left-[1989px] leading-[29px] flex items-center justify-center w-[226px] h-[43px]">{`John doe `}</span>
+            <div className="absolute top-[3124px] left-[2002px] leading-[29px] flex items-center justify-center w-[200px] h-[43px]">
+              most high chef
+            </div>
+            <span className="absolute top-[2935px] left-[1855px] leading-[29px] flex text-gray-100 items-center justify-center w-[485px]">
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page when looking at its layout. The
+              point of using Lorem Ipsum is that it has a more-or-less normal
+              distribution of letters, as opposed to using 'Content here,
+            </span>
+            <div className="absolute top-[2872px] left-[2019px] flex flex-row items-start justify-start gap-[17px]">
+              <img
+                className="relative w-[18px] h-[19px]"
+                alt=""
+                src="/star-1.svg"
+              />
+              <img
+                className="relative w-[18px] h-[19px]"
+                alt=""
+                src="/star-1.svg"
+              />
+              <img
+                className="relative w-[18px] h-[19px]"
+                alt=""
+                src="/star-1.svg"
+              />
+              <img
+                className="relative w-[18px] h-[19px]"
+                alt=""
+                src="/star-1.svg"
+              />
+              <img
+                className="relative w-[18px] h-[19px]"
+                alt=""
+                src="/star-1.svg"
+              />
+            </div>
+            <img
+              className="absolute top-[3167px] left-[2014px] w-[166px] h-[170px] object-cover"
+              alt=""
+              src="/ellipse-51@2x.png"
+            />
+            <img
+              className="absolute top-[3322px] left-[1246px] w-[398px] h-[601px] object-cover"
+              alt=""
+              src="/pngwing-2@2x.png"
+            />
+            <div className="absolute top-[0px] left-[0px] w-[2774px] h-[2735px] text-left text-4xl font-inter">
+              <div className="absolute top-[322px] left-[673px] bg-linen w-[1507px] h-[2001px]" />
+              <img
+                className="absolute top-[1713px] left-[668px] w-[944px] h-[1022px]"
+                alt=""
+                src="/group-12.svg"
+              />
+              <span className="absolute top-[619px] left-[calc(50%_-_331px)] text-[42px] leading-[29px] inline-block font-heading1 text-gray-100 w-[773px]">
+                Please check out our list of featured email
+              </span>
+              <span className="absolute top-[538px] left-[calc(50%_-_254px)] text-51xl font-heading1 text-gray-300">
+                Our Full Menu Items
+              </span>
+              <div className="absolute top-[724px] left-[854px] rounded-lg box-border w-[558px] h-[707px] border-[1px] border-dashed border-black">
+                <span className="absolute top-[19.14px] left-[calc(50%_-_69.93px)] text-9xl inline-block font-heading1 w-[139.85px] h-[30.4px]">
+                  CAKES
+                </span>
+                <div className="absolute top-[53.56px] left-[calc(50%_-_154.69px)] text-3xl text-dimgray inline-block w-[310.78px] h-[30.4px]">
+                  Starting at CAD $150
+                </div>
+                <div className="absolute top-[111.68px] left-[19.78px] font-extrabold inline-block w-[247.22px] h-[31.52px]">
+                  Wedding cakes
+                </div>
+                <div className="absolute top-[259.27px] left-[19.78px] font-extrabold inline-block w-[247.22px] h-[31.52px]">
+                  Birthday cakes
+                </div>
+                <div className="absolute top-[399.87px] left-[18.36px] font-extrabold inline-block w-[327.74px] h-[31.91px]">
+                  Anniversary cakes
+                </div>
+                <div className="absolute top-[545.46px] left-[19.78px] font-extrabold inline-block w-[247.22px] h-[31.52px]">
+                  Wedding cakes
+                </div>
+                <img
+                  className="absolute top-[126.64px] left-[271.23px] w-[96.06px] h-[1.03px]"
+                  alt=""
+                  src="/line-5.svg"
+                />
+                <img
+                  className="absolute top-[274.22px] left-[271.23px] w-[96.06px] h-[1.03px]"
+                  alt=""
+                  src="/line-9.svg"
+                />
+                <img
+                  className="absolute top-[414.82px] left-[269.82px] w-[96.06px] h-[1.03px]"
+                  alt=""
+                  src="/line-10.svg"
+                />
+                <img
+                  className="absolute top-[560.41px] left-[271.23px] w-[96.06px] h-[1.03px]"
+                  alt=""
+                  src="/line-11.svg"
+                />
+                <div className="absolute top-[111.68px] left-[391.31px] font-extrabold inline-block w-[53.68px] h-[31.52px]">
+                  12’’
+                </div>
+                <div className="absolute top-[259.27px] left-[391.31px] font-extrabold inline-block w-[53.68px] h-[31.52px]">
+                  12’’
+                </div>
+                <div className="absolute top-[399.87px] left-[389.89px] font-extrabold inline-block w-[53.68px] h-[31.52px]">
+                  12’’
+                </div>
+                <div className="absolute top-[545.46px] left-[391.31px] font-extrabold inline-block w-[53.68px] h-[31.52px]">
+                  12’’
+                </div>
+                <div className="absolute top-[111.68px] left-[454.88px] font-extrabold inline-block w-[84.76px] h-[31.91px]">
+                  $150
+                </div>
+                <div className="absolute top-[259.27px] left-[454.88px] font-extrabold inline-block w-[84.76px] h-[31.91px]">
+                  $150
+                </div>
+                <div className="absolute top-[399.87px] left-[453.46px] font-extrabold inline-block w-[84.76px] h-[31.91px]">
+                  $150
+                </div>
+                <div className="absolute top-[545.46px] left-[454.88px] font-extrabold inline-block w-[84.76px] h-[31.91px]">
+                  $150
+                </div>
+                <div className="absolute top-[146.59px] left-[43.79px] text-lg font-medium inline-block w-[461.94px] h-[99.07px]">
+                  Brioche sliced bread, Cheddar cheese slices , garlic sauce,
+                  slices of tomato , caramelized onion, roasted garlic
+                  seasoning.
+                </div>
+                <div className="absolute top-[292.17px] left-[43.79px] text-lg font-medium inline-block w-[461.94px] h-[99.07px]">
+                  Brioche sliced bread, Cheddar cheese slices , garlic sauce,
+                  slices of tomato , caramelized onion, roasted garlic
+                  seasoning.
+                </div>
+                <div className="absolute top-[431.78px] left-[43.79px] text-lg font-medium inline-block w-[461.94px] h-[99.07px]">
+                  Brioche sliced bread, Cheddar cheese slices , garlic sauce,
+                  slices of tomato , caramelized onion, roasted garlic
+                  seasoning.
+                </div>
+                <div className="absolute top-[578.36px] left-[43.79px] text-lg font-medium inline-block w-[461.94px] h-[99.07px]">
+                  Brioche sliced bread, Cheddar cheese slices , garlic sauce,
+                  slices of tomato , caramelized onion, roasted garlic
+                  seasoning.
+                </div>
+              </div>
+              <div className="absolute top-[724px] left-[1448px] rounded-lg box-border w-[545px] h-[709px] border-[1px] border-dashed border-black">
+                <span className="absolute top-[19.19px] left-[202.82px] text-9xl inline-block font-heading1 w-[136.59px] h-[30.48px]">
+                  SWEETS
+                </span>
+                <div className="absolute top-[53.71px] left-[calc(50%_-_151.08px)] text-3xl text-dimgray inline-block w-[303.54px] h-[30.48px]">
+                  Starting at CAD $150
+                </div>
+                <div className="absolute top-[112px] left-[19.32px] font-extrabold inline-block w-[241.46px] h-[31.61px]">
+                  Wedding cakes
+                </div>
+                <div className="absolute top-[260px] left-[19.32px] font-extrabold inline-block w-[241.46px] h-[31.61px]">
+                  Birthday cakes
+                </div>
+                <div className="absolute top-[401px] left-[17.94px] font-extrabold inline-block w-[320.1px] h-8">
+                  Anniversary cakes
+                </div>
+                <div className="absolute top-[547px] left-[19.32px] font-extrabold inline-block w-[241.46px] h-[31.61px]">
+                  Wedding cakes
+                </div>
+                <img
+                  className="absolute top-[127px] left-[264.91px] w-[93.82px] h-[1.03px]"
+                  alt=""
+                  src="/line-51.svg"
+                />
+                <img
+                  className="absolute top-[275px] left-[264.91px] w-[93.82px] h-[1.03px]"
+                  alt=""
+                  src="/line-51.svg"
+                />
+                <img
+                  className="absolute top-[416px] left-[263.53px] w-[93.82px] h-[1.03px]"
+                  alt=""
+                  src="/line-101.svg"
+                />
+                <img
+                  className="absolute top-[562px] left-[264.91px] w-[93.82px] h-[1.03px]"
+                  alt=""
+                  src="/line-51.svg"
+                />
+                <div className="absolute top-[112px] left-[382.19px] font-extrabold inline-block w-[52.43px] h-[31.61px]">
+                  12’’
+                </div>
+                <div className="absolute top-[260px] left-[382.19px] font-extrabold inline-block w-[52.43px] h-[31.61px]">
+                  12’’
+                </div>
+                <div className="absolute top-[401px] left-[380.81px] font-extrabold inline-block w-[52.43px] h-[31.61px]">
+                  12’’
+                </div>
+                <div className="absolute top-[547px] left-[382.19px] font-extrabold inline-block w-[52.43px] h-[31.61px]">
+                  12’’
+                </div>
+                <div className="absolute top-[112px] left-[444.28px] font-extrabold inline-block w-[82.78px] h-8">
+                  $150
+                </div>
+                <div className="absolute top-[260px] left-[444.28px] font-extrabold inline-block w-[82.78px] h-8">
+                  $150
+                </div>
+                <div className="absolute top-[401px] left-[442.9px] font-extrabold inline-block w-[82.78px] h-8">
+                  $150
+                </div>
+                <div className="absolute top-[547px] left-[444.28px] font-extrabold inline-block w-[82.78px] h-8">
+                  $150
+                </div>
+                <div className="absolute top-[147px] left-[42.77px] text-lg font-medium inline-block w-[451.18px] h-[99.35px]">
+                  Brioche sliced bread, Cheddar cheese slices , garlic sauce,
+                  slices of tomato , caramelized onion, roasted garlic
+                  seasoning.
+                </div>
+                <div className="absolute top-[293px] left-[42.77px] text-lg font-medium inline-block w-[451.18px] h-[99.35px]">
+                  Brioche sliced bread, Cheddar cheese slices , garlic sauce,
+                  slices of tomato , caramelized onion, roasted garlic
+                  seasoning.
+                </div>
+                <div className="absolute top-[433px] left-[42.77px] text-lg font-medium inline-block w-[451.18px] h-[99.35px]">
+                  Brioche sliced bread, Cheddar cheese slices , garlic sauce,
+                  slices of tomato , caramelized onion, roasted garlic
+                  seasoning.
+                </div>
+                <div className="absolute top-[580px] left-[42.77px] text-lg font-medium inline-block w-[451.18px] h-[99.35px]">
+                  Brioche sliced bread, Cheddar cheese slices , garlic sauce,
+                  slices of tomato , caramelized onion, roasted garlic
+                  seasoning.
+                </div>
+              </div>
+              <div className="absolute top-[1498px] left-[1442px] rounded-lg box-border w-[561px] h-[709px] border-[1px] border-dashed border-black">
+                <span className="absolute top-[19.19px] left-[208.78px] text-9xl inline-block font-heading1 w-[140.61px] h-[30.48px]">
+                  SWEETS
+                </span>
+                <div className="absolute top-[53.71px] left-[calc(50%_-_155.52px)] text-3xl text-dimgray inline-block w-[312.46px] h-[30.48px]">
+                  Starting at CAD $150
+                </div>
+                <div className="absolute top-[112px] left-[19.88px] font-extrabold inline-block w-[248.54px] h-[31.61px]">
+                  Wedding cakes
+                </div>
+                <div className="absolute top-[260px] left-[19.88px] font-extrabold inline-block w-[248.54px] h-[31.61px]">
+                  Birthday cakes
+                </div>
+                <div className="absolute top-[401px] left-[18.46px] font-extrabold inline-block w-[329.5px] h-8">
+                  Anniversary cakes
+                </div>
+                <div className="absolute top-[547px] left-[19.88px] font-extrabold inline-block w-[248.54px] h-[31.61px]">
+                  Wedding cakes
+                </div>
+                <img
+                  className="absolute top-[127px] left-[272.69px] w-[96.58px] h-[1.03px]"
+                  alt=""
+                  src="/line-52.svg"
+                />
+                <img
+                  className="absolute top-[275px] left-[272.69px] w-[96.58px] h-[1.03px]"
+                  alt=""
+                  src="/line-52.svg"
+                />
+                <img
+                  className="absolute top-[416px] left-[271.27px] w-[96.58px] h-[1.03px]"
+                  alt=""
+                  src="/line-102.svg"
+                />
+                <img
+                  className="absolute top-[562px] left-[272.69px] w-[96.58px] h-[1.03px]"
+                  alt=""
+                  src="/line-52.svg"
+                />
+                <div className="absolute top-[112px] left-[393.41px] font-extrabold inline-block w-[53.97px] h-[31.61px]">
+                  12’’
+                </div>
+                <div className="absolute top-[260px] left-[393.41px] font-extrabold inline-block w-[53.97px] h-[31.61px]">
+                  12’’
+                </div>
+                <div className="absolute top-[401px] left-[391.99px] font-extrabold inline-block w-[53.97px] h-[31.61px]">
+                  12’’
+                </div>
+                <div className="absolute top-[547px] left-[393.41px] font-extrabold inline-block w-[53.97px] h-[31.61px]">
+                  12’’
+                </div>
+                <div className="absolute top-[112px] left-[457.32px] font-extrabold inline-block w-[85.22px] h-8">
+                  $150
+                </div>
+                <div className="absolute top-[260px] left-[457.32px] font-extrabold inline-block w-[85.22px] h-8">
+                  $150
+                </div>
+                <div className="absolute top-[401px] left-[455.9px] font-extrabold inline-block w-[85.22px] h-8">
+                  $150
+                </div>
+                <div className="absolute top-[547px] left-[457.32px] font-extrabold inline-block w-[85.22px] h-8">
+                  $150
+                </div>
+                <div className="absolute top-[147px] left-[44.03px] text-lg font-medium inline-block w-[464.42px] h-[99.35px]">
+                  Brioche sliced bread, Cheddar cheese slices , garlic sauce,
+                  slices of tomato , caramelized onion, roasted garlic
+                  seasoning.
+                </div>
+                <div className="absolute top-[293px] left-[44.03px] text-lg font-medium inline-block w-[464.42px] h-[99.35px]">
+                  Brioche sliced bread, Cheddar cheese slices , garlic sauce,
+                  slices of tomato , caramelized onion, roasted garlic
+                  seasoning.
+                </div>
+                <div className="absolute top-[433px] left-[44.03px] text-lg font-medium inline-block w-[464.42px] h-[99.35px]">
+                  Brioche sliced bread, Cheddar cheese slices , garlic sauce,
+                  slices of tomato , caramelized onion, roasted garlic
+                  seasoning.
+                </div>
+                <div className="absolute top-[580px] left-[44.03px] text-lg font-medium inline-block w-[464.42px] h-[99.35px]">
+                  Brioche sliced bread, Cheddar cheese slices , garlic sauce,
+                  slices of tomato , caramelized onion, roasted garlic
+                  seasoning.
+                </div>
+              </div>
+              <div className="absolute top-[1498px] left-[851px] rounded-lg box-border w-[561px] h-[709px] border-[1px] border-dashed border-black">
+                <span className="absolute top-[19.19px] left-[208.78px] text-9xl inline-block font-heading1 w-[140.61px] h-[30.48px]">
+                  SWEETS
+                </span>
+                <div className="absolute top-[53.71px] left-[calc(50%_-_155.52px)] text-3xl text-dimgray inline-block w-[312.46px] h-[30.48px]">
+                  Starting at CAD $150
+                </div>
+                <div className="absolute top-[112px] left-[19.88px] font-extrabold inline-block w-[248.54px] h-[31.61px]">
+                  Wedding cakes
+                </div>
+                <div className="absolute top-[260px] left-[19.88px] font-extrabold inline-block w-[248.54px] h-[31.61px]">
+                  Birthday cakes
+                </div>
+                <div className="absolute top-[401px] left-[18.46px] font-extrabold inline-block w-[329.5px] h-8">
+                  Anniversary cakes
+                </div>
+                <div className="absolute top-[547px] left-[19.88px] font-extrabold inline-block w-[248.54px] h-[31.61px]">
+                  Wedding cakes
+                </div>
+                <img
+                  className="absolute top-[127px] left-[272.69px] w-[96.58px] h-[1.03px]"
+                  alt=""
+                  src="/line-52.svg"
+                />
+                <img
+                  className="absolute top-[275px] left-[272.69px] w-[96.58px] h-[1.03px]"
+                  alt=""
+                  src="/line-52.svg"
+                />
+                <img
+                  className="absolute top-[416px] left-[271.27px] w-[96.58px] h-[1.03px]"
+                  alt=""
+                  src="/line-103.svg"
+                />
+                <img
+                  className="absolute top-[562px] left-[272.69px] w-[96.58px] h-[1.03px]"
+                  alt=""
+                  src="/line-52.svg"
+                />
+                <div className="absolute top-[112px] left-[393.41px] font-extrabold inline-block w-[53.97px] h-[31.61px]">
+                  12’’
+                </div>
+                <div className="absolute top-[260px] left-[393.41px] font-extrabold inline-block w-[53.97px] h-[31.61px]">
+                  12’’
+                </div>
+                <div className="absolute top-[401px] left-[391.99px] font-extrabold inline-block w-[53.97px] h-[31.61px]">
+                  12’’
+                </div>
+                <div className="absolute top-[547px] left-[393.41px] font-extrabold inline-block w-[53.97px] h-[31.61px]">
+                  12’’
+                </div>
+                <div className="absolute top-[112px] left-[457.32px] font-extrabold inline-block w-[85.22px] h-8">
+                  $150
+                </div>
+                <div className="absolute top-[260px] left-[457.32px] font-extrabold inline-block w-[85.22px] h-8">
+                  $150
+                </div>
+                <div className="absolute top-[401px] left-[455.9px] font-extrabold inline-block w-[85.22px] h-8">
+                  $150
+                </div>
+                <div className="absolute top-[547px] left-[457.32px] font-extrabold inline-block w-[85.22px] h-8">
+                  $150
+                </div>
+                <div className="absolute top-[147px] left-[44.03px] text-lg font-medium inline-block w-[464.42px] h-[99.35px]">
+                  Brioche sliced bread, Cheddar cheese slices , garlic sauce,
+                  slices of tomato , caramelized onion, roasted garlic
+                  seasoning.
+                </div>
+                <div className="absolute top-[293px] left-[44.03px] text-lg font-medium inline-block w-[464.42px] h-[99.35px]">
+                  Brioche sliced bread, Cheddar cheese slices , garlic sauce,
+                  slices of tomato , caramelized onion, roasted garlic
+                  seasoning.
+                </div>
+                <div className="absolute top-[433px] left-[44.03px] text-lg font-medium inline-block w-[464.42px] h-[99.35px]">
+                  Brioche sliced bread, Cheddar cheese slices , garlic sauce,
+                  slices of tomato , caramelized onion, roasted garlic
+                  seasoning.
+                </div>
+                <div className="absolute top-[580px] left-[44.03px] text-lg font-medium inline-block w-[464.42px] h-[99.35px]">
+                  Brioche sliced bread, Cheddar cheese slices , garlic sauce,
+                  slices of tomato , caramelized onion, roasted garlic
+                  seasoning.
+                </div>
+              </div>
+              <img
+                className="absolute top-[0px] left-[1830px] w-[944px] h-[1022px]"
+                alt=""
+                src="/group-121.svg"
+              />
+            </div>
+          </div>
+          <div className="absolute top-[1838px] left-[1623px] w-[369px] h-[334px] overflow-hidden flex flex-col py-[52px] px-[21px] box-border items-end justify-end bg-[url('/frame-10@3x.png')] bg-cover bg-no-repeat bg-[top]">
+            <div className="relative font-extrabold">TREATS</div>
+          </div>
+        </div>
+        <span className="absolute top-[45px] left-[calc(50%_-_105px)] text-51xl inline-block text-black w-[285px]">
+          About Us
+        </span>
+        <p className="absolute top-[656px] left-[calc(50%_-_396px)] text-[25px] leading-[36px] inline-block text-gray-100 w-[866px] h-[150px]">
+          It is a long established fact that a reader will be distracted by the
+          readable content of a page when looking at its layout. The point of
+          using Lorem Ipsum is that it has a more-or-less normal distribution of
+          letters, as opposed to using 'Content here, content here', making it
+          look like readable English.
+        </p>
+        <div className="absolute top-[1058px] left-[915.5px] box-border w-[1017px] h-px border-t-[1px] border-solid border-black" />
+      </div>
+    </div>
+  );
+};
+
+export default Homepage;

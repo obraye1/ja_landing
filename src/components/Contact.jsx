@@ -3,7 +3,7 @@ import MapImg from '../assets/Rectangle 18.png';
 
 const Contact = () => {
   return (
-    <div className="md:max-w-[1240px] h-screen mx-auto  py-[100px] ">
+    <div className="md:max-w-[1240px] h-screen mx-auto  py-[100px] container">
       <div className="hidden md:grid md:grid-cols-3 grid-cols-3 items-center gap-y-5 md:gap-x-8 justify-center text-left text-[18px] ">
         <div className="">
           <h2 className="md:text-[64px] text-gray-400">01</h2>
@@ -35,7 +35,7 @@ const Contact = () => {
               <h4 className="text-[#6D6D73] py-2 md:py-6 font-bold text-lg md:text-[20px]">
                 Select Location
               </h4>
-              <button class="block w-full text-start text-gray-300 px-2 md:py-3 overflow-hidden border-2 border-gray-300 focus:outline-none focus:border-[#c64018]">Lagos</button>
+              <button class="block w-full text-start text-gray-300 px-2 md:py-3  border-2 border-gray-300 focus:outline-none focus:border-[#c64018]">Lagos</button>
               {/* Dropdrow menu */}
               {/* <div></div> */}
             </div>
@@ -48,7 +48,7 @@ const Contact = () => {
               {/* <div></div> */}
             </div>
             <button
-              className=" bg-[#c64018] rounded text-white  block px-4 py-2 hover:bg-[#da6440]"
+              className=" bg-[#c64018] rounded text-white  block px-4 py-2 hover:bg-[#da6440] md:w-full"
               type="button"
             >
               Search

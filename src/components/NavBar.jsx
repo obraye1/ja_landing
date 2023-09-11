@@ -9,9 +9,9 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="   ">
-      <div className=" flex justify-between md:max-w-[1240px] mx-auto items-center border-b border-b-gray-300  py-[20px] shadow-md ">
-        <h1 className="text-3xl text-[#c64018]">BuildDepot</h1>
+    <nav className=" container  ">
+      <div className=" flex  justify-between md:max-w-[1240px] mx-auto items-center border-b border-b-gray-500  py-[20px] shadow-md ">
+        <h1 className="text-3xl text-[#c64018] font-bold">BuildDepot</h1>
 
         <div className="hidden sm:flex justify-center space-x-8 items-center text-[14px] ">
           <ul className="flex space-x-4">
@@ -39,8 +39,8 @@ const NavBar = () => {
         <div
           className={
             nav
-              ? 'sm:hidden  top-0 absolute right-0 left-0 bottom-0 flex justify-center items-center w-full h-screen text-center ease-in duration-300'
-              : 'sm:hidden  absolute top-0 right-0 left-[-100%] bottom-0 flex justify-center items-center w-full h-screen text-center ease-in duration-300'
+              ? 'sm:hidden bg-black top-0 absolute right-0 left-0 bottom-0 flex justify-center items-center w-full h-screen text-center ease-in duration-300'
+              : 'sm:hidden  absolute top-0 bg-black right-0 left-[-100%] bottom-0 flex justify-center items-center w-full h-screen text-center ease-in duration-300'
           }
         >
           <ul className="pt-[260px] h-screen">
