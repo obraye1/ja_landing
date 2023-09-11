@@ -3,7 +3,7 @@ import MapImg from '../assets/Rectangle 18.png';
 
 const Contact = () => {
   return (
-    <div className="md:max-w-[1240px] h-screen mx-auto  py-[100px] container">
+    <div className="md:max-w-[1240px]  mx-auto py-[100px] container">
       <div className="hidden md:grid md:grid-cols-3 grid-cols-3 items-center gap-y-5 md:gap-x-8 justify-center text-left text-[18px] ">
         <div className="">
           <h2 className="md:text-[64px] text-gray-400">01</h2>
