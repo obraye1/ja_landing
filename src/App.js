@@ -7,7 +7,7 @@ import What from "./components/What";
 
 function App() {
   return (
-    <div className="bg-slate-200 ">
+    <div className="bg-slate-200 overlfow-hidden">
       <NavBar />
       <HomePage />
       <Contact />

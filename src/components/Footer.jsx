@@ -11,7 +11,7 @@ const Footer = () => {
     <footer className="max-w-[1240px] md:h-auto top-0 mx-auto mt-[50px] container">
       <div className="grid md:grid-cols-4 grid-cols-1 border-y py-[3rem] gap-y-[4rem] md:gap-y-6">
         <div className="md:col-span-2">
-          <div className=" w-[460px] space-y-4">
+          <div className="  space-y-4">
             <h4 className="text-3xl font-bold text-[#c64018]">BuildDepot</h4>
             <p className="text-[15px] leading-6">
               Est diam debitis an, error recusabo id pro, quo eripuit civibus
