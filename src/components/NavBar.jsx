@@ -9,9 +9,9 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="border-b border-b-gray-500  py-[20px] shadow-md ">
+    <nav className="border-b p-4 border-b-gray-500  py-[20px] shadow-md ">
       <div className="md:max-w-[1240px]  items-center flex justify-between mx-auto">
-        <div className=" hidden sm:flex text-3xl text-[#c64018] font-bold">
+        <div className=" hidden sm:block text-3xl text-[#c64018] font-bold">
           BuildDepot
         </div>
 
@@ -36,10 +36,10 @@ const NavBar = () => {
       {/* mobile menu */}
       <div
         onClick={handleClick}
-        className="sm:hidden  flex z-10 cursor-pointer jusitfy-between"
+        className="sm:hidden pl-2 flex cursor-pointer flex-wrap jusitfy-between"
       >
-        {nav ? <AiOutlineClose size={30} /> : <AiOutlineMenuFold size={30} />}
-        <div>Buildpot </div>
+        {nav ? <AiOutlineClose size={30} />  : <AiOutlineMenuFold size={30} />}<div className="text-3xl text-[#c64018] font-bold pl-2">Buildpot </div>
+        
       </div>
 
       <div

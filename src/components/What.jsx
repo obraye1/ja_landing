@@ -9,7 +9,7 @@ const What = () => {
       <div className={`p-4 ${style.adv}`}>
         <div className=" grid grid-cols-2 gap-x-[50px] md:w-[1240px] md:mx-auto">
           <div className="flex flex-col text-[18px] justify-center items-start gap-y-4 ">
-            <h2 className="w-[259px] text-white ">
+            <h2 className="w-[259px] text-white  ">
               No need to waste time! Talk to a Build Depot agent on <span className="text-[#48C546] pl-1">WhatsApp</span> and
               relax.
             </h2>
